@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+
+<head> 
+    
+  <title> </title> 
+    
+    <meta charset="utf-8"/>
+
+ <link  rel="stylesheet" href="design.css" type="text/css" >
+    </head>
+
+<body>
+   
+   <div class="id" >
+    donner la valeur :  <input type ="text"  id="str" > <br> <br>
+       
+    <button onclick="calcule()"  class="b"> donner longeur d'un mot </button>
+       <br>
+    <label id="label1">....</label>
+    </div>
+        <script type="text/javascript" >
+        function calcule()
+        {
+ var txt= document.getElementById("str").value;
+            
+            var Text1= txt.length;
+            document.getElementById("label1").innerHTML=Text1;
+        }
+    
+    </script>
+    
+   
+    </body>
+    
+    
+    
+    
+    </html>
